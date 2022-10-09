@@ -17,6 +17,11 @@
 |CHA|Encoder phase A output,maximum voltage following VCC|A|Encoder phase A input|
 |CHB|Encoder phase B output,maximum voltage following VCC|B|Encoder phase B input|
 
+## Announcements
+1. Separate motor drive lines O1 and O2. If one of the two lines is close to encoder power supply V, it will interfere with encoder feedback signal and result in motor jitter
+> Solution, use rolling tape to tie up the motor drive line to prevent it from separating, it can be solved
+2. tbd ...
+
 ## Dir instructions
 |Dir Name|Instructions|
 | :--:|:--:|
